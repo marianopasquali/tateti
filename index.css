@@ -1,0 +1,150 @@
+*{
+
+    margin:0;
+    padding: 0;
+
+}
+
+body{
+
+display: flex;
+justify-content: center;
+align-content: center;
+background: #f3f3f3;
+
+}
+
+.wrap_tateti{
+position: relative;
+top: 30px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.tablero{
+width: 100%;
+position: relative;
+top:60px;
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content:space-around;
+
+}
+
+.contador{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 22px;
+
+}
+
+.contador span{
+
+margin: 40px;
+
+}
+
+.cuenta{
+
+
+width: 100px;
+height: 100px;
+border-radius: 15px;
+background: #000000c9;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+font-size: 30px;
+font-weight: bold;
+bottom: 40px;
+position: relative;
+
+}
+
+.botonera{
+display: flex;
+position: relative;
+flex-direction: column;
+top:0px;
+}
+.rowboton{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+
+}
+
+.btn{
+
+border-radius: 15px;
+background: #d30303;
+border:none;
+outline: none;
+margin: 5px;
+cursor: pointer;
+transition: all .4s;
+color:#FFFFFF;
+font-size: 40px;
+
+}
+
+.btn:hover{
+
+    background: #f84b4b;
+    box-shadow: 0 0 15px  #00000083;
+
+}
+
+.small{
+
+    width: 80px;
+    height: 80px;
+
+}
+
+.reset{
+
+height: 80px;
+width: 80px;
+border-radius: 50%;
+margin-top:40px;
+}
+
+.estado{
+position: relative;
+top:20px;
+font-size: 25px;
+display: flex;
+flex-direction: column;
+
+}
+
+.restart_lbl{
+
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    display: none;
+
+}
+
+.circle{
+
+padding: 5px;
+color:#FFFFFF;
+font-size: 14px;
+border-radius: 50px;
+background:#d30303;
+
+}
